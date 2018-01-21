@@ -21,5 +21,5 @@ auth = tweepy.OAuthHandler(os.environ["TWITTER_SNEMBOT_CKEY"], os.environ["TWITT
 auth.set_access_token(os.environ["TWITTER_SNEMBOT_AKEY"], os.environ["TWITTER_SNEMBOT_ASECRET"])
 api = tweepy.API(auth)
 
-# api.update_status(twt)
+api.update_status(twt)
 
