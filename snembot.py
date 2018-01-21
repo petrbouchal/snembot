@@ -1,4 +1,4 @@
-import tweepy, time, sys, os, csv, numpy as np, pandas as pd, random as rd
+import tweepy, os, pandas as pd, random as rd
 
 # this part only to set and retrieve secrets in another file - omit when deployed
 
