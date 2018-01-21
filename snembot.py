@@ -2,9 +2,9 @@ import tweepy, time, sys, os, csv, numpy as np, pandas as pd, random as rd
 
 # this part only to set and retrieve secrets in another file - omit when deployed
 
-import set_secrets
-set_secrets.set_secrets_env()
-print(os.environ["TWITTER_SNEMBOT_CKEY"])
+# import set_secrets
+# set_secrets.set_secrets_env()
+# print(os.environ["TWITTER_SNEMBOT_CKEY"])
 
 # load data
 txt = pd.read_csv("./texts.csv")
